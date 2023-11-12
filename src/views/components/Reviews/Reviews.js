@@ -46,7 +46,7 @@ const Reviews = () => {
                     defaultCollapsed={true}
                   >
                     <div className="info">age: {person.age}</div>
-                    <div className="info">sex: {person.sex}</div>
+                    <div className="info">gender: {person.sex}</div>
                     <div className="info">role: {person.role}</div>
                   </TreeView>
                 );
