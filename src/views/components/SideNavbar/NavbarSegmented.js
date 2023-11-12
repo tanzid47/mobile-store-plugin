@@ -40,6 +40,7 @@ import Drawer2 from "../Global/Drawer";
 import Index from "../AppBar/Index";
 import Order from "../Order/Order";
 import Receipts from "../Receipts/Receipts";
+import Reviews from "../Reviews/Reviews";
 
 const tabs = {
   account: [
@@ -236,9 +237,6 @@ const NavbarSegmented = ({
           timingFunction: "linear",
         }}
       >
-        {/* <div>
-          <h3>Receipts Drawer Content</h3>
-        </div> */}
         <Receipts />
       </Drawer>
 
@@ -255,9 +253,7 @@ const NavbarSegmented = ({
           timingFunction: "linear",
         }}
       >
-        <div>
-          <h3>Reviews Drawer Content</h3>
-        </div>
+        <Reviews />
       </Drawer>
 
       {/* Messages Drawer */}
