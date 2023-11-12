@@ -1,0 +1,4 @@
+var classes = {"root":"m-d46a4834","inner":"m-b85f7144","fullScreen":"m-96f6e9ad","dropzone":"m-7946116d"};
+
+export default classes;
+//# sourceMappingURL=Dropzone.module.css.js.map
