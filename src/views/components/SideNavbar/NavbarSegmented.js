@@ -38,6 +38,8 @@ import Appbar from "../Global/AppBar";
 import Navbar from "../Global/Navbar";
 import Drawer2 from "../Global/Drawer";
 import Index from "../AppBar/Index";
+import Order from "../Order/Order";
+import Receipts from "../Receipts/Receipts";
 
 const tabs = {
   account: [
@@ -167,13 +169,12 @@ const NavbarSegmented = ({
         href="#"
         style={{
           display: "flex",
-          marginRight: "10px",
           justifyContent: section === "account" ? "space-between" : "flex-end",
         }}
         onClick={(event) => event.preventDefault()}
       >
         {iconSection}
-        <Button>Save</Button>
+        <Button size="xs">Save</Button>
       </a>
     </div>
   );
@@ -217,7 +218,8 @@ const NavbarSegmented = ({
         }}
       >
         <div>
-          <h3>Order Drawer Content</h3>
+          {/* <h3>Order Drawer Content</h3> */}
+          <Order />
         </div>
       </Drawer>
 
@@ -234,9 +236,10 @@ const NavbarSegmented = ({
           timingFunction: "linear",
         }}
       >
-        <div>
+        {/* <div>
           <h3>Receipts Drawer Content</h3>
-        </div>
+        </div> */}
+        <Receipts />
       </Drawer>
 
       {/* Reviews Drawer */}

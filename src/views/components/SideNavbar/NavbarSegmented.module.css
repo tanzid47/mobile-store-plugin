@@ -2,7 +2,7 @@
   background-color: var(--mantine-color-body);
   height: 570px;
   width: 300px; 
-  padding: var(--mantine-spacing-md);
+  padding: var(--mantine-spacing-xs);
   display: flex;
   flex-direction: column;
   border-right: 1px solid var(--mantine-color-gray-3);
@@ -10,7 +10,7 @@
 
 .navbarMain {
   flex: 1;
-  margin-top: var(--mantine-spacing-xl);
+  margin-top: var(--mantine-spacing-xs);
 }
 
 .link {
@@ -19,7 +19,7 @@
   text-decoration: none;
   font-size: var(--mantine-font-size-sm);
   color: var(--mantine-color-gray-7);
-  padding: var(--mantine-spacing-xs) var(--mantine-spacing-sm);
+  padding: var(--mantine-spacing-xs) var(--mantine-spacing-xs);
   border-radius: var(--mantine-radius-sm);
   font-weight: 500;
 
@@ -48,8 +48,8 @@
 .linkIcon {
   color: var(--mantine-color-gray-6);
   margin-right: var(--mantine-spacing-sm);
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   &:hover {
     background-color: var(--mantine-color-gray-0);
     color: var(--mantine-color-black);
@@ -62,5 +62,5 @@
 
 .footer {
   border-top: 1px solid var(--mantine-color-gray-3);
-  padding-top: var(--mantine-spacing-md);
+  padding-top: 4px;
 }
