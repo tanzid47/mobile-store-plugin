@@ -449,6 +449,7 @@ const NavbarSegmented = ({
           transition: "fade",
           duration: 2000,
           timingFunction: "linear",
+          
         }}
       >
         {/* <Index
