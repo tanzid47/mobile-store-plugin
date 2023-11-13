@@ -1,5 +1,5 @@
 import React from "react";
-import { Flex, ActionIcon, Box, ThemeIcon } from "@mantine/core";
+import { Flex, ActionIcon, Box, ThemeIcon, Grid } from "@mantine/core";
 import {
   IconHome2,
   IconUser,
@@ -98,6 +98,12 @@ const navbaritem = {
       ))}
     </Flex>
   ),
+  flex4: (
+    <Box px={10} py={5} bg="gray.3">
+      <Grid>
+      </Grid>
+    </Box>
+  ),
 };
 
 const Navbar = ({
@@ -127,13 +133,16 @@ const Navbar = ({
   return (
     <>
       <Flex>
-      
-        <Box w={220} onClick={handleStack1Click}>{navbaritem.flex1}</Box>
+        <Box w={220} onClick={handleStack1Click}>
+          {navbaritem.flex1}
+        </Box>
         <Box w={220} ml="xs" onClick={handleStack2Click}>
           {navbaritem.flex2}
         </Box>
       </Flex>
-      <Box w={220} onClick={handleStack3Click}>{navbaritem.flex3}</Box>
+      <Box w={220} onClick={handleStack3Click}>
+        {navbaritem.flex3}
+      </Box>
     </>
   );
 };

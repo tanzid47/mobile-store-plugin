@@ -301,7 +301,7 @@ const NavbarSegmented = ({
         size={300}
         transitionProps={{
           transition: "fade",
-          duration: 2000,
+          duration: 1500,
           timingFunction: "linear",
         }}
       >
@@ -319,7 +319,7 @@ const NavbarSegmented = ({
         size={300}
         transitionProps={{
           transition: "fade",
-          duration: 2000,
+          duration: 1500,
           timingFunction: "linear",
         }}
       >
@@ -466,6 +466,7 @@ const NavbarSegmented = ({
           Item3={selectAppBar3}
           setItem3={setSelectAppBar3}
           appBar={onItemClick}
+          
         />
       </Drawer>
 
